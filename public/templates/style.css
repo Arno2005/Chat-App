@@ -1,0 +1,85 @@
+
+#main-chat{
+    overflow-y: auto;
+}
+
+#text{
+    resize: none;
+}
+
+.fa-paperclip{
+    cursor: pointer;
+}
+
+.my{
+    text-align: right;
+}
+
+.notif{
+    text-align: center;
+}
+
+.darker{
+    background: #eee;
+}
+
+
+
+
+.rounded {
+    height: 30px;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.in1 {
+    width: 120px;
+}
+
+.in2 {
+    width: 350px;
+}
+
+i {
+    margin: 0 8px;
+}
+
+.filename-container {
+    margin: 20px 20px 0 0;
+}
+
+.filename {
+    display: inline-block;
+    padding: 0 10px;
+    margin-right: 10px;
+    background-color: #ccc;
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 12px;
+    font-family: 'verdana', sans-serif;
+}
+
+.hide {
+    display: none;
+}
+
+
+
+
+
+
+
+@media (max-width: 1050px) {
+    main{
+        width: 85vw!important;
+    }
+}
+@media (max-width: 767px) {
+    main{
+        width: 98vw!important;
+    }
+}
